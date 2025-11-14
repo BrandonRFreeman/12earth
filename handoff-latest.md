@@ -11,6 +11,7 @@
 - No open bugs or tasks specified yet; update this section as new work is defined.
 - User instruction: “Always git commit and push to my branch after every phase is complete.” Treat each logical batch of work as a phase.
 - File `image` (text “npm”) is untracked; leave untouched unless directed.
+- Removed decorative logo underline (“badge”) from header per latest request.
 - Production deploys:
   - 2025-11-14T13:57:03Z → https://12earth-l5t788zql-brandpn-r-freemans-projects.vercel.app
   - 2025-11-14T13:59:24Z → https://12earth-5275tglem-brandpn-r-freemans-projects.vercel.app
