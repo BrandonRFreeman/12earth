@@ -1,0 +1,9 @@
+{
+  "name": "12earth",
+  "version": "1.0.0",
+  "description": "Landing page for 12earth contemporary glass art.",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "start": "npm run dev"
+  }
+}
