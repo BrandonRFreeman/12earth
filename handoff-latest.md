@@ -5,6 +5,7 @@
 - `package.json` only defines a dev server alias (`npm run dev` → `python3 -m http.server 4173`).
 - JavaScript handles header scroll state, mobile nav toggling (including Escape close), and section-based nav highlighting.
 - Contact form posts to Formspree endpoint `https://formspree.io/f/xayvvewz`.
+- Project linked to Vercel (`brandpn-r-freemans-projects/12earth`) via `.vercel/project.json`; `.vercel` ignored by git per `.gitignore`.
 
 ## Outstanding Work / Notes
 - No open bugs or tasks specified yet; update this section as new work is defined.
@@ -15,8 +16,9 @@
 - Manual browser check via `npm run dev` (python HTTP server) when UI changes occur.
 - No automated tests configured.
 
-## MCP Resources
-- None configured or retrieved at this time. Update if MCP contexts are provided.
+## MCP / External Resources
+- MCP resources: none configured yet.
+- Hosting: connected to Vercel project https://vercel.com/12earth (team scope `brandpn-r-freemans-projects`). Deployments will pick up changes pushed to GitHub.
 
 ## Next Steps
 1. Await specific implementation requests.
