@@ -1,0 +1,23 @@
+# 12earth Handoff — 2025-11-14
+
+## Current Context
+- Static marketing site served from `index.html`, `styles.css`, and `script.js`; no bundler or framework.
+- `package.json` only defines a dev server alias (`npm run dev` → `python3 -m http.server 4173`).
+- JavaScript handles header scroll state, mobile nav toggling (including Escape close), and section-based nav highlighting.
+- Contact form posts to Formspree endpoint `https://formspree.io/f/xayvvewz`.
+
+## Outstanding Work / Notes
+- No open bugs or tasks specified yet; update this section as new work is defined.
+- User instruction: “Always git commit and push to my branch after every phase is complete.” Treat each logical batch of work as a phase.
+- File `image` (text “npm”) is untracked; leave untouched unless directed.
+
+## Testing / Verification
+- Manual browser check via `npm run dev` (python HTTP server) when UI changes occur.
+- No automated tests configured.
+
+## MCP Resources
+- None configured or retrieved at this time. Update if MCP contexts are provided.
+
+## Next Steps
+1. Await specific implementation requests.
+2. Update this document as progress is made (sections above should reflect the latest state).
