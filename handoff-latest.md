@@ -12,6 +12,7 @@
 - User instruction: “Always git commit and push to my branch after every phase is complete.” Treat each logical batch of work as a phase.
 - File `image` (text “npm”) is untracked; leave untouched unless directed.
 - Removed decorative logo underline (“badge”) from header per latest request.
+- Custom domain mapping still pending: `12earth.com` currently resolves to Squarespace (A record 23.227.38.32). Attempting `vercel domains add 12earth.com` reports lack of access, indicating the domain is already claimed under another Vercel team. Need confirmation/transfer or DNS change before production site is visible on the root domain.
 - Production deploys:
   - 2025-11-14T13:57:03Z → https://12earth-l5t788zql-brandpn-r-freemans-projects.vercel.app
   - 2025-11-14T13:59:24Z → https://12earth-5275tglem-brandpn-r-freemans-projects.vercel.app
