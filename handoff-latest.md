@@ -12,6 +12,7 @@
 - User instruction: “Always git commit and push to my branch after every phase is complete.” Treat each logical batch of work as a phase.
 - File `image` (text “npm”) is untracked; leave untouched unless directed.
 - Removed decorative logo underline (“badge”) from header per latest request.
+- Updated global styling to use a white background/light panels to better showcase colorful art.
 - Custom domain mapping pending: `12earth.com` and `12earth.art` still point to Squarespace IPs (23.227.38.32 and 198.49.23.144/145, 198.185.159.144/145). Even after the registrar transfer to GoDaddy, `vercel domains add` returns “Not authorized”/“already assigned to another project,” so the domains are still registered with another Vercel team. Need that team to remove them (or contact Vercel support) before we can add them here, then update DNS to Vercel (A → 76.76.21.21, `www` CNAME → cname.vercel-dns.com). User has confirmed they are actively using `12earth.com` elsewhere for now, so the domain switch is on hold until that usage is migrated.
 - Production deploys:
   - 2025-11-14T13:57:03Z → https://12earth-l5t788zql-brandpn-r-freemans-projects.vercel.app
