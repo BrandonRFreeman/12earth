@@ -3,26 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>12earth | Contemporary Glass Collectors & Artists</title>
-  <meta name="description" content="12earth builds a bridge between collectible glass artists and premier collectors through curated releases, artist services, and bespoke installations.">
+  <title>12earth | Contemporary Glass</title>
+  <meta name="description" content="12earth presents contemporary glass exhibitions, viewing rooms, and collector services spanning Seattle and Eugene.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#experience">Skip to content</a>
+  <a class="skip-link" href="#exhibitions">Skip to content</a>
+
   <header class="site-header" id="top">
-    <div class="logo-mark">
-      <span class="logo-number">12</span>
-      <span class="logo-word">earth</span>
+    <div class="logo">
+      <span>12earth</span>
+      <small>Glass archive &amp; commissions</small>
     </div>
     <nav class="site-nav" aria-label="Primary">
-      <a href="#experience">Experience</a>
-      <a href="#membership">Premier Members</a>
+      <a href="#exhibitions">Exhibitions</a>
+      <a href="#viewing">Viewing Rooms</a>
       <a href="#artists">Artists</a>
-      <a href="#process">Process</a>
-      <a href="#contact">Contact</a>
+      <a href="#journal">Journal</a>
+      <a href="#visit">Visit</a>
     </nav>
     <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu">
       <span class="sr-only">Toggle navigation</span>
@@ -30,239 +31,178 @@
       <span></span>
     </button>
     <nav id="mobile-menu" class="mobile-nav" aria-label="Mobile">
-      <a href="#experience">Experience</a>
-      <a href="#membership">Premier Members</a>
+      <a href="#exhibitions">Exhibitions</a>
+      <a href="#viewing">Viewing Rooms</a>
       <a href="#artists">Artists</a>
-      <a href="#process">Process</a>
-      <a href="#contact">Contact</a>
+      <a href="#journal">Journal</a>
+      <a href="#visit">Visit</a>
     </nav>
-    <a class="btn ghost" href="#contact">Commission Work</a>
+    <a class="site-cta" href="#visit">Join the list</a>
   </header>
 
   <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-media" role="presentation" aria-hidden="true"></div>
-      <div class="hero-content">
-        <p class="eyebrow">Contemporary glass · Seattle &amp; Eugene</p>
-        <h1 id="hero-title">We collaborate with the world’s most daring glass artists and the collectors who champion them.</h1>
-        <p>
-          Born from the original 12.earth atelier, we steward limited releases, museum-grade commissions, and
-          white-glove installation for environments seeking luminous, high-impact glass sculpture.
-        </p>
-        <div class="hero-actions">
-          <a class="btn" href="#membership">Request Membership</a>
-          <a class="btn text" href="#experience">Explore the portfolio</a>
+    <section class="feature" aria-labelledby="feature-title">
+      <div class="feature-media" role="img" aria-label="Sculptural glass installation bathed in pale light"></div>
+      <div class="feature-content">
+        <p class="eyebrow">Now on view · Seattle</p>
+        <h1 id="feature-title">Chromatic Rift — Luminous interventions in kiln-formed glass.</h1>
+        <p>Large-format architectural glass works from AK and the Lumen Guild residency pair volcanic pigment with mirrored strata. Installed within Beacon Studio through March 2.</p>
+        <a class="link-arrow" href="#exhibitions">Explore the exhibition</a>
+      </div>
+    </section>
+
+    <section id="exhibitions" class="section exhibitions" aria-labelledby="exhibitions-title">
+      <div class="section-heading">
+        <p class="eyebrow">Exhibitions</p>
+        <h2 id="exhibitions-title">Research-led presentations across Seattle, Eugene, and private collections.</h2>
+      </div>
+      <div class="exhibition-grid">
+        <article>
+          <p class="eyebrow">Current</p>
+          <h3>Chromatic Rift</h3>
+          <p>AK &amp; Lumen Guild trace molten lines across suspended volumes, echoing the earliest 12.earth releases.</p>
+          <dl>
+            <dt>Dates</dt>
+            <dd>Feb 06 — Mar 02</dd>
+            <dt>Location</dt>
+            <dd>Beacon Studio · Seattle</dd>
+          </dl>
+        </article>
+        <article>
+          <p class="eyebrow">Forthcoming</p>
+          <h3>Mineral Drift</h3>
+          <p>TRUE revisits botanical lumens, pairing dichroic petals with brass armatures for Aspen hospitality suites.</p>
+          <dl>
+            <dt>Dates</dt>
+            <dd>Apr 12 — May 18</dd>
+            <dt>Location</dt>
+            <dd>Residency Gallery · Eugene</dd>
+          </dl>
+        </article>
+        <article>
+          <p class="eyebrow">Travelling</p>
+          <h3>Light Studies</h3>
+          <p>Concierge exhibition program for corporate campuses commissioning mirrored tessellations and wall reliefs.</p>
+          <dl>
+            <dt>Dates</dt>
+            <dd>Year-round</dd>
+            <dt>Location</dt>
+            <dd>Private · On request</dd>
+          </dl>
+        </article>
+      </div>
+      <a class="link-arrow" href="#visit">Request curatorial packet</a>
+    </section>
+
+    <section id="viewing" class="section viewing" aria-labelledby="viewing-title">
+      <div class="section-heading">
+        <p class="eyebrow">Viewing Rooms</p>
+        <h2 id="viewing-title">Digital releases that expand the 12earth archive.</h2>
+      </div>
+      <div class="viewing-grid">
+        <article>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?auto=format&fit=crop&w=1200&q=80" alt="Translucent glass sculpture detail">
+          </figure>
+          <div>
+            <h3>Premier Member Room</h3>
+            <p>Film essays, provenance notes, and conservation briefs for vaulted editions dating back to 2013.</p>
+            <a class="link-arrow" href="#visit">Access viewing room</a>
+          </div>
+        </article>
+        <article>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="Glass sculpture in gallery niche">
+          </figure>
+          <div>
+            <h3>Commissions Lab</h3>
+            <p>Process documentation for bespoke hospitality, civic, and residential installations engineered with partners.</p>
+            <a class="link-arrow" href="#visit">Review a commission</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="artists" class="section artists" aria-labelledby="artists-title">
+      <div class="section-heading">
+        <p class="eyebrow">Artists</p>
+        <h2 id="artists-title">Represented voices from AK to TRUE plus rotating residency alumni.</h2>
+      </div>
+      <div class="artists-list">
+        <div>
+          <h3>Seattle</h3>
+          <ul>
+            <li>AK</li>
+            <li>Lumen Guild</li>
+            <li>Mari Calder</li>
+            <li>Studio Northlight</li>
+          </ul>
         </div>
-        <dl class="hero-stats">
-          <div>
-            <dt>Artists represented</dt>
-            <dd>12</dd>
-          </div>
-          <div>
-            <dt>Private collections</dt>
-            <dd>80+</dd>
-          </div>
-          <div>
-            <dt>Premiere releases</dt>
-            <dd>160</dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-
-    <section class="credibility" aria-label="Featured in">
-      <p>Seen with partners including</p>
-      <span>Architectural Digest</span>
-      <span>Design Milk</span>
-      <span>Dezeen</span>
-      <span>Glass Art Society</span>
-    </section>
-
-    <section id="experience" class="experience">
-      <div class="section-heading">
-        <p class="eyebrow">What we steward</p>
-        <h2>Meticulous curation, honed from the original 12.earth archives.</h2>
-        <p>
-          Research across past 12earth and 12-earth releases from 2013 onward informs our model. We maintain
-          the Premier Member ethos—rare drops, access to studio conversations, and concierge logistics for every piece.
-        </p>
-      </div>
-      <div class="pillars">
-        <article>
-          <h3>For Artists</h3>
-          <p>We remove distractions so artists stay at the torch. Our team handles marketing, collector relations, freight, and conservation documentation.</p>
+        <div>
+          <h3>Eugene</h3>
           <ul>
-            <li>Strategic launches &amp; digital provenance kits</li>
-            <li>Fabrication oversight + installation supervision</li>
-            <li>Studio film + editorial features</li>
+            <li>TRUE</li>
+            <li>Flux Cooperative</li>
+            <li>Sierra Caine</li>
+            <li>Azure Kiln Works</li>
           </ul>
-        </article>
-        <article>
-          <h3>For Collectors</h3>
-          <p>Premier members receive first look access to vaulted works and private walkthroughs.</p>
+        </div>
+        <div>
+          <h3>Residency</h3>
           <ul>
-            <li>Invitation-only drops featuring AK, TRUE, and new alumni</li>
-            <li>Complimentary insured overnight delivery within the U.S.</li>
-            <li>Collection management, valuations, and lighting studies</li>
+            <li>Igneous Forms</li>
+            <li>Glasshouse 41</li>
+            <li>North Rim Studio</li>
+            <li>Light Assembly</li>
           </ul>
-        </article>
+        </div>
       </div>
     </section>
 
-    <section class="gallery" aria-labelledby="gallery-title">
+    <section id="journal" class="section journal" aria-labelledby="journal-title">
       <div class="section-heading">
-        <p class="eyebrow">Recent installations</p>
-        <h2 id="gallery-title">Glass that amplifies architecture.</h2>
-      </div>
-      <div class="gallery-grid">
-        <figure>
-          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1000&q=80" alt="Suspended glass sculpture with warm light">
-          <figcaption>AK · Krunk Series · Palm Desert</figcaption>
-        </figure>
-        <figure>
-          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1000&q=80" alt="Colorful fused glass wall detail">
-          <figcaption>TRUE · Mineral Drift · Aspen</figcaption>
-        </figure>
-        <figure>
-          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1000&q=80" alt="Glass designer sketching over light table">
-          <figcaption>Studio documentation · Seattle &amp; Eugene</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section id="membership" class="membership">
-      <div class="section-heading">
-        <p class="eyebrow">Premier Member Section</p>
-        <h2>Exclusive releases, just like the original 12.earth drops.</h2>
-        <p>
-          To honor the historic program, only collectors who have supported 12earth artists—or can share imagery of their
-          glass collection—receive login credentials. Members gain:
-        </p>
-      </div>
-      <div class="benefits">
-        <article>
-          <h3>Vaulted Editions</h3>
-          <p>Bespoke kiln and hot-shop pieces released in micro batches with certificates of provenance.</p>
-        </article>
-        <article>
-          <h3>Studio Access</h3>
-          <p>Private Belltown and Eugene walkthroughs plus livestreamed sessions from collaborating furnaces.</p>
-        </article>
-        <article>
-          <h3>Concierge Care</h3>
-          <p>We cover insured overnight shipping within the continental U.S. and coordinate installation teams worldwide.</p>
-        </article>
-      </div>
-      <div class="cta">
-        <p>*Request requires proof of purchase history or documentation of existing glass collection.</p>
-        <a class="btn" href="#contact">Request Membership</a>
-      </div>
-    </section>
-
-    <section id="artists" class="artists">
-      <div class="section-heading">
-        <p class="eyebrow">Represented voices</p>
-        <h2>From OG collaborators to new luminaries.</h2>
-      </div>
-      <div class="artist-grid">
-        <article>
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Artist AK working with molten glass">
-          <header>
-            <h3>AK</h3>
-            <p>Chromatic Architectures</p>
-          </header>
-          <p>Large-format suspended pieces that riff on the famed Krunk editions captured in archived releases.</p>
-        </article>
-        <article>
-          <img src="https://images.unsplash.com/photo-1500534310680-2022d9981f02?auto=format&fit=crop&w=800&q=80" alt="TRUE shaping glass">
-          <header>
-            <h3>TRUE</h3>
-            <p>Botanical Lumens</p>
-          </header>
-          <p>Delicate botanicals encased in dichroic layers, created exclusively for 12earth patrons.</p>
-        </article>
-        <article>
-          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="New artist shaping sculpture">
-          <header>
-            <h3>Lumen Guild</h3>
-            <p>Residency Collective</p>
-          </header>
-          <p>A rotating cohort exploring volcanic ash, mirrored pigment, and architectural glass mosaics.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="process" class="process">
-      <div class="section-heading">
-        <p class="eyebrow">Commission Process</p>
-        <h2>We choreograph every step.</h2>
-      </div>
-      <ol class="timeline">
-        <li>
-          <span>01</span>
-          <div>
-            <h3>Discovery</h3>
-            <p>Gather inspirations, assess site constraints, share archival releases for context.</p>
-          </div>
-        </li>
-        <li>
-          <span>02</span>
-          <div>
-            <h3>Design Lab</h3>
-            <p>Material samples, renders, and maquettes produced collaboratively with artists.</p>
-          </div>
-        </li>
-        <li>
-          <span>03</span>
-          <div>
-            <h3>Fabrication</h3>
-            <p>Hot shop sessions filmed for collectors, paired with weekly conservation reports.</p>
-          </div>
-        </li>
-        <li>
-          <span>04</span>
-          <div>
-            <h3>Installation</h3>
-            <p>White-glove transport, lighting calibration, and documentation for insurance + appraisal.</p>
-          </div>
-        </li>
-      </ol>
-    </section>
-
-    <section class="journal">
-      <div class="section-heading">
-        <p class="eyebrow">Release notes</p>
-        <h2>Updates from the archive research desk.</h2>
+        <p class="eyebrow">Journal</p>
+        <h2 id="journal-title">Recent field notes, conservation studies, and archive research.</h2>
       </div>
       <div class="journal-grid">
         <article>
-          <p class="eyebrow">Archive Dive</p>
-          <h3>2013–2016 Shopify era</h3>
-          <p>Wayback Machine research recovered artist pages, premier membership copy, and Eugene, OR studio data informing today’s relaunch.</p>
+          <time datetime="2025-02-10">10 Feb 2025</time>
+          <h3>Recovering the 12.earth Shopify era</h3>
+          <p>Wayback machine and inventory logs informed new provenance packets for premiere members.</p>
         </article>
         <article>
-          <p class="eyebrow">Field Notes</p>
-          <h3>Hotshop Residency</h3>
-          <p>Weekly residencies rotate between Seattle and Eugene, connecting collectors via livestream to the fabrication floor.</p>
+          <time datetime="2025-01-22">22 Jan 2025</time>
+          <h3>Lighting studies with Atelier K</h3>
+          <p>Testing UV filtration and IR coatings for Palm Desert installations with mirrored pools.</p>
         </article>
         <article>
-          <p class="eyebrow">Opportunities</p>
-          <h3>Hospitality &amp; Corporate</h3>
-          <p>Custom wall reliefs and suspended sculptures engineered with UL-listed lighting partners for seamless integration.</p>
+          <time datetime="2024-12-18">18 Dec 2024</time>
+          <h3>Residency livestreams</h3>
+          <p>Weekly furnace broadcasts between Seattle and Eugene reconnect collectors to fabrication floors.</p>
         </article>
       </div>
+      <a class="link-arrow" href="#visit">Receive journal updates</a>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="visit" class="section visit" aria-labelledby="visit-title">
       <div>
-        <p class="eyebrow">Connect</p>
-        <h2>Let’s plan your next acquisition.</h2>
-        <p>12earth currently works by appointment only. Studio visits available in Belltown (Seattle) and Eugene, Oregon.</p>
-        <div class="contact-list">
-          <a href="mailto:support@12earth.com">support@12earth.com</a>
-          <a href="tel:+12065551234">+1 (206) 555-1234</a>
-          <p>By appointment · Shipping worldwide</p>
-        </div>
+        <p class="eyebrow">Visit</p>
+        <h2 id="visit-title">By appointment in Seattle (Belltown) and Eugene.</h2>
+        <p>12earth maintains private viewing rooms calibrated for large-scale suspended works and wall reliefs. Concierge teams coordinate crating, lighting, and installation worldwide.</p>
+        <ul class="visit-details">
+          <li>
+            <span>Seattle</span>
+            <p>2109 2nd Ave · Suite 4, Belltown</p>
+          </li>
+          <li>
+            <span>Eugene</span>
+            <p>Grant Street Kilnworks · Studio 2</p>
+          </li>
+          <li>
+            <span>Contact</span>
+            <p><a href="mailto:support@12earth.com">support@12earth.com</a> · <a href="tel:+12065551234">+1 (206) 555-1234</a></p>
+          </li>
+        </ul>
       </div>
       <form class="contact-form" action="https://formspree.io/f/xayvvewz" method="post">
         <label>
@@ -276,13 +216,13 @@
         <label>
           Interest
           <select name="interest">
-            <option value="Premier Membership">Premier Membership</option>
+            <option value="Viewing Room">Viewing Room</option>
             <option value="Commission">Commission / Installation</option>
             <option value="Press">Press / Collaboration</option>
           </select>
         </label>
         <label>
-          Project Notes
+          Notes
           <textarea name="notes" rows="5" placeholder="Collection goals, timelines, locations" required></textarea>
         </label>
         <button class="btn" type="submit">Submit</button>
@@ -291,10 +231,15 @@
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> 12earth · Contemporary Glass Fine Art</p>
-    <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
-    <a href="https://www.pinterest.com" target="_blank" rel="noreferrer">Pinterest</a>
-    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+    <div>
+      <span>© <span id="year"></span> 12earth</span>
+      <p>Contemporary glass exhibitions &amp; commissions</p>
+    </div>
+    <div>
+      <p>Seattle · Eugene · Remote</p>
+      <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
   </footer>
 
   <script src="script.js" defer></script>
