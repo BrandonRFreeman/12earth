@@ -12,7 +12,7 @@
 - User instruction: “Always git commit and push to my branch after every phase is complete.” Treat each logical batch of work as a phase.
 - File `image` (text “npm”) is untracked; leave untouched unless directed.
 - Removed decorative logo underline (“badge”) from header per latest request.
-- Custom domain mapping pending: `12earth.com` and `12earth.art` both point to Squarespace IPs (23.227.38.32 and 198.49.23.145/198.185.159.xxx). `vercel domains add` for each reports lack of access (403), meaning they’re claimed under another Vercel team. Need ownership transfer and DNS updates (A → 76.76.21.21, CNAME → cname.vercel-dns.com) before the live site is reachable on those domains.
+- Custom domain mapping pending: `12earth.com` and `12earth.art` still point to Squarespace IPs (23.227.38.32 and 198.49.23.144/145, 198.185.159.144/145). Even after the registrar transfer to GoDaddy, `vercel domains add` returns “Not authorized”/“already assigned to another project,” so the domains are still registered with another Vercel team. Need that team to remove them (or contact Vercel support) before we can add them here, then update DNS to Vercel (A → 76.76.21.21, `www` CNAME → cname.vercel-dns.com).
 - Production deploys:
   - 2025-11-14T13:57:03Z → https://12earth-l5t788zql-brandpn-r-freemans-projects.vercel.app
   - 2025-11-14T13:59:24Z → https://12earth-5275tglem-brandpn-r-freemans-projects.vercel.app
