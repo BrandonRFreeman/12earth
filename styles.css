@@ -490,6 +490,18 @@ select:focus {
   max-width: 900px;
 }
 
+.bio-full {
+  margin-top: 0.75rem;
+  color: var(--text);
+}
+
+.bio-full summary {
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
 .site-footer {
   width: min(1200px, 100%);
   margin: 2rem auto 4rem;
