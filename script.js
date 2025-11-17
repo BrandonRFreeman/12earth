@@ -72,3 +72,12 @@ if (sections.length) {
 
   sections.forEach((section) => observer.observe(section));
 }
+
+const bioDetails = document.querySelector('.bio-full');
+const bioSection = document.querySelector('.bio');
+
+if (bioDetails && bioSection) {
+  bioDetails.addEventListener('toggle', () => {
+    bioSection.classList.toggle('is-open', bioDetails.open);
+  });
+}

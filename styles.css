@@ -502,8 +502,7 @@ select:focus {
   text-transform: uppercase;
 }
 
-.bio-full[open] ~ .bio-brief,
-.bio-full[open] .bio-brief {
+.bio.is-open .bio-brief {
   display: none;
 }
 
