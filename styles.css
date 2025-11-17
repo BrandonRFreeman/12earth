@@ -502,6 +502,11 @@ select:focus {
   text-transform: uppercase;
 }
 
+.bio-full[open] ~ .bio-brief,
+.bio-full[open] .bio-brief {
+  display: none;
+}
+
 .site-footer {
   width: min(1200px, 100%);
   margin: 2rem auto 4rem;
