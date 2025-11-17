@@ -483,6 +483,13 @@ select:focus {
   outline: 1px solid var(--accent);
 }
 
+.bio-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 900px;
+}
+
 .site-footer {
   width: min(1200px, 100%);
   margin: 2rem auto 4rem;
